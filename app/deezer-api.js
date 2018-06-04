@@ -1,4 +1,4 @@
-const NRrequest = require('request');
+const NRrequest = require('request')
 const request = require('requestretry').defaults({
 	maxAttempts: 2147483647,
 	retryDelay: 1000,
